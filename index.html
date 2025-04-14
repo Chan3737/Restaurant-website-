@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tasty Bites | Home</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spice & Bite</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Tasty Bites</h1>
+    <h1>Spice & Bite</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Menu</a>
-      <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h2>Delicious Food, Delivered Fresh</h2>
-    <p>Order your favorite meals and enjoy every bite.</p>
-    <button>Explore Menu</button>
+  <section class="intro">
+    <h2>Welcome to Spice & Bite</h2>
+    <p>Fresh, tasty, and authentic dishes delivered to your door!</p>
+    <button onclick="orderNow()">Order Now</button>
   </section>
 
   <section class="menu">
-    <h3>Popular Dishes</h3>
-    <ul>
-      <li>Pasta Alfredo - ₹250</li>
-      <li>Paneer Tikka - ₹200</li>
-      <li>Veg Burger - ₹120</li>
-      <li>Chocolate Brownie - ₹80</li>
-    </ul>
+    <h3>Today's Specials</h3>
+    <div class="menu-item">
+      <h4>Masala Dosa</h4>
+      <p>₹80 - Crispy, spicy, and satisfying.</p>
+    </div>
+    <div class="menu-item">
+      <h4>Veg Biryani</h4>
+      <p>₹150 - Aromatic rice with fresh vegetables and spices.</p>
+    </div>
+    <div class="menu-item">
+      <h4>Paneer Butter Masala</h4>
+      <p>₹180 - Creamy and rich North Indian classic.</p>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Tasty Bites | All rights reserved.</p>
+    <p>&copy; 2025 Spice & Bite. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
-        </html>
+</html>
