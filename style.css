@@ -1,37 +1,32 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff8f0;
+  background: #fff8f0;
   color: #333;
   text-align: center;
 }
 
 header {
-  background-color: #ff6347;
+  background-color: #d94f30;
   color: white;
   padding: 20px;
 }
 
 nav a {
-  margin: 0 15px;
-  text-decoration: none;
   color: white;
+  text-decoration: none;
+  margin: 0 10px;
   font-weight: bold;
 }
 
-.hero {
-  padding: 50px 20px;
-  background-color: #ffe5d4;
+.intro {
+  padding: 40px 20px;
+  background-color: #fce3db;
 }
 
-.hero h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.hero button {
+.intro button {
   padding: 10px 20px;
-  background-color: #ff6347;
+  background-color: #d94f30;
   color: white;
   border: none;
   border-radius: 5px;
@@ -39,21 +34,20 @@ nav a {
 }
 
 .menu {
-  padding: 40px 20px;
+  padding: 30px;
 }
 
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu li {
-  margin: 10px 0;
-  font-size: 18px;
+.menu-item {
+  margin: 20px auto;
+  background-color: #fff2e6;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
 footer {
-  background-color: #ddd;
+  background-color: #eee;
   padding: 15px;
   margin-top: 30px;
-}
+  }
